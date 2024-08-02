@@ -1,0 +1,182 @@
+body{
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    margin: 0px;
+}
+.topbar{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(54, 75, 234);
+    margin: 0px;
+}
+.topbarleft,.topbarright{
+    width: 50%;
+    height: 40px;
+    float: left;
+}
+.topbarright a{
+    float: right;
+    padding-top: 10px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.topbarleft a{
+    float: left;
+    padding-top: 10px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.box{
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    background-color: blue;
+   
+}
+.box .boxa,.box .boxb,.box .boxc,.box .boxd{
+    width: 25%;
+    height: 300px;
+    background-color: rgb(0, 174, 255);
+    float: left;
+    border-radius: 30px;
+    background: linear-gradient(rgb(125, 125, 255), rgb(180, 180, 251));
+}
+
+.box .boxa img,.box .boxb img,.box .boxc img,.box .boxd img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: 145px;
+    margin-top: 30px;
+    
+}
+.box .boxa h3,.box .boxb h3,.box .boxc h3,.box .boxd h3{
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.box .boxa p,.box .boxb p,.box .boxc p,.box .boxd p{
+    text-align: justify;
+    padding: 0px 20px;
+}
+.imagebaner{
+    width: 100%;
+    height: 550px;
+    background-image: url(../cssimages/doctorsimage.png);
+    background-repeat: no-repeat;
+    background-position-x: 625px;
+    background-position-y: 25px;
+    background-size: 910px;
+    background-color: rgb(238, 237, 237);
+}
+.imagebaner .heading{
+    width: 50%;
+}
+.imagebaner .heading h1{
+    padding-top: 200px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+.imagebaner .heading p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 50px;
+}
+.imagebaner .heading button{
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 48%;
+    border-radius: 10px;
+    background-color: rgb(81, 164, 246);
+    color: rgb(11, 11, 11);
+}
+.last{
+    background-image: url(../cssimages/sar.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position-y: 150px;
+    background-position-x: 490px;
+    background-color: rgb(238, 237, 237);
+}
+.last h1{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.last p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 5px 60px;
+}
+.last .lastleft{
+    width: 40%;
+    height: 350px;
+    float: left;
+    margin-top: 60px;
+}
+.last .lastright{
+    width: 40%;
+    height: 400px;
+    float: right;
+    margin-top: 60px;
+}
+.last .lastleft img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    padding-left: 55px;
+    margin-top: 15px;
+}
+.last .lastleft h2{
+    float: left;  
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 30px; 
+    text-align: center;
+    padding-left: 30px;
+}
+.last .lastleft p{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+}
+.last .lastright img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    padding-left: 55px;
+    margin-top: 15px;
+}
+.last .lastright h2{
+    float: left;  
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 30px; 
+    text-align: center;
+    padding-left: 30px;
+}
+.last .lastright p{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+}
