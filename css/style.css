@@ -69,6 +69,16 @@ p{
     border-right: #000000 1px solid;
     
 }
+.btn-info{
+    width: 275px;
+    height: 70px;
+    padding: 0px;
+    border: #000000 1px solid;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px rgb(219, 229, 230);
+    background-color: #35527e;
+}
 .count{
     background-image: url(../image/breadcrumb.jpg);
     background-repeat: no-repeat;
