@@ -78,6 +78,7 @@ p{
     font-size: 15px;
     box-shadow: 2px 2px 5px rgb(219, 229, 230);
     background-color: #35527e;
+    color: whitesmoke;
 }
 .count{
     background-image: url(../image/breadcrumb.jpg);
