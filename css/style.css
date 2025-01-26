@@ -60,8 +60,7 @@ p{
     width: 280px;
     height: 70px;
     border: #000000 1px solid;
-    margin-bottom: 30px;
-    margin-right: 40px;
+    margin : 0px auto 30px auto;
     font-weight: 600;
     font-size: 15px;
     box-shadow: 2px 2px 5px rgb(219, 229, 230);
